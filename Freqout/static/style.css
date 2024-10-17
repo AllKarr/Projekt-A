@@ -1,0 +1,173 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 10px 10px;
+    color: white;
+}
+
+.logo img {
+    width: 80px;
+    background-image: url('/static/img/logo.png/');
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+a {
+    color: white;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+/* Hover Effect on Navigation Links */
+nav ul li a:hover {
+    color: #e8c13b;
+}
+
+.search-bar input {
+    padding: 15px 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #D48702;
+    color:white;
+}
+
+/* Section Styles */
+.intro {
+    text-align: center;
+    height: 750px;
+    padding: 50px 0;
+    background-image: url('/static/bg.png'); /* Correct path */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: white; /* Ensures the text color is readable over the background */
+}
+
+.introa {
+    text-align: center;
+    height: 750px;
+    padding: 50px 0;
+    background-image: url('/static/bga.png'); /* Correct path */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: white; /* Ensures the text color is readable over the background */
+}
+
+.introl {
+    text-align: center;
+    height: 750px;
+    padding: 50px 0;
+    background-image: url('/static/bgl.png'); /* Correct path */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: white; /* Ensures the text color is readable over the background */
+}
+
+.introp {
+    text-align: center;
+    height: 750px;
+    padding: 50px 0;
+    background-image: url('/static/bgp.png'); /* Correct path */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: white; /* Ensures the text color is readable over the background */
+}
+
+/* Buttons styling */
+.buttons {
+    margin-top: 18%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+
+.buttonsa {
+    margin-top: 15%;
+    margin-left: 40%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+
+.role-btna {
+    height: 80px;
+    width: 300px;
+    background-color: #1b1b1b;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.role-btn {
+    width: 200px;
+    background-color: #1b1b1b;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover Effect on Buttons */
+.role-btn:hover {
+    background-color: #D48702;
+    color: white;
+}
+
+/* Hover Effect on Buttons */
+.role-btna:hover {
+    background-color: #D48702;
+    color: white;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 10px 0;
+}
