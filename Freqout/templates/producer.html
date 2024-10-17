@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Platform</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo">
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search Genre/Artist/BPM">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="{{ url_for('home') }}">Home</a></li>
+                <li><a href="{{ url_for('artist') }}">Artists</a></li>
+                <li><a href="{{ url_for('producer') }}">Producers</a></li>
+                <li><a href="{{ url_for('listener') }}">Listener</a></li>
+                <li><a href="#">Sign In</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <!-- Section 1: Intro with Buttons -->
+    <section class="introp">
+        <div class="buttonsa">
+            <a href="{{ url_for('home') }}"><button class="role-btna">SIGN UP</button></a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="contact-info">
+            <p>Contact us: contact@example.com / Address: 123 Music Ave, Tune City / About Us</p>
+        </div>
+    </footer>
+</body>
+</html>
